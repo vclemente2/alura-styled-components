@@ -8,9 +8,13 @@ export default function Extrato() {
             <h2>Extrato</h2>
             {extratoLista.updates.map(({ id, type, value, date, from }) => {
                 return (
-                    <Itens key={id}>
-                        {type}
-                    </Itens>
+                    <Itens
+                        key={id}
+                        type={type}
+                        value={value}
+                        date={date}
+                        from={from}
+                    />
                 )
             })}
             <Botao>Ver Mais</Botao>
