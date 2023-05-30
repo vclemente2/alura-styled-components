@@ -3,6 +3,6 @@ import ThemeOff from '../../assets/images/themeOff.svg'
 import { Icone } from '../UI'
 
 const claro = <Icone src={ThemeOn} alt='Tema Claro' />
-const escuro = <Icone src={ThemeOff} alt='Tema escuro' />
+const escuro = <Icone src={ThemeOff} alt='Tema Escuro' />
 
-export default (({ tema }) => tema ? escuro : claro)
+export default function SwitchTema({ tema }) { return tema ? escuro : claro }

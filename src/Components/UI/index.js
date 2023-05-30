@@ -47,8 +47,8 @@ export const Detalhe = styled.span`
 
 export const BtnTema = styled.button`
     position: absolute;
-    top: 4vh,
-    right: 20px,
+    top: 4vh;
+    right: 20px;
     background: inherit;
     border: none;
     cursor: pointer
